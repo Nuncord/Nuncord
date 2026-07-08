@@ -62,4 +62,4 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://o9ll.github.io/nuncord/sitemap.xml
+Sitemap: https://Nuncord.github.io/Nuncord/sitemap.xml
