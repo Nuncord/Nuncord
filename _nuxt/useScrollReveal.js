@@ -1,0 +1,1 @@
+function l(){let e=null;function r(){e=new IntersectionObserver(t=>{t.forEach(n=>{n.isIntersecting&&!n.target.classList.contains("revealed")&&n.target.classList.add("revealed")})},{threshold:.12}),document.querySelectorAll("[data-reveal], [data-stagger]").forEach(t=>{e.observe(t)})}function a(){e==null||e.disconnect(),e=null}return{init:r,destroy:a}}export{l as u};
